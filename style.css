@@ -52,8 +52,6 @@
       position: absolute;
       bottom: 50%;
       left: 50%;
-      background-color: yellow;
-    
       border-top-left-radius: 10px;
       border-top-right-radius: 10px;
       transform-origin: bottom;
@@ -77,7 +75,7 @@
   
   
   .clock .hand.second {
-      width: px;
+      width: 3px;
       height: 43%;
       background-color: red;
   }
@@ -85,12 +83,12 @@
   .clock .hand.minute {
       width: 6px;
       height: 38%;
-      background-color:green;
+      background-color:black;
   }
   
   .clock .hand.hour {
       width: 10px;
       height: 34%;
-      background-color: yellow;
+      background-color: black;
       /* border: 1px solid white; */
   }
